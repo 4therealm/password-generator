@@ -16,7 +16,7 @@ var passwordArray = []; //this is the var that will be changed based on user inp
 
 
 function askQuestions(){
-  var response = prompt("How many characters?");
+  var response = prompt("How many characters? must be between 8 and 128");
   numberOfChars = parseInt(response);
 if(numberOfChars < 8 || numberOfChars > 128 || isNaN(numberOfChars))
   { 
