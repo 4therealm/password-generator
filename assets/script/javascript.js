@@ -19,9 +19,9 @@ var passwordArray = []; //this is the var that will be changed based on user inp
 function askQuestions(){
   var response = prompt("How many characters?");
   numberOfChars = parseInt(response);
-if(numberOfChars < 8 || numberOfChars > 126 || isNaN(numberOfChars))
+if(numberOfChars < 8 || numberOfChars > 128 || isNaN(numberOfChars))
   { 
-  alert("password must be between 8 and 26 characters, please try again")
+  alert("password must be between 8 and 128 characters, please try again")
   generatePassword() 
   return
   }
