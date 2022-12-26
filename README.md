@@ -1,5 +1,8 @@
 # password-generator
 homework assignment 3: generate random passwords based on criteria that is selected
+repo: https://github.com/4therealm/password-generator
+deployed page: https://4therealm.github.io/password-generator/
+screenshots
 ## User Story
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
