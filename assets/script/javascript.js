@@ -47,10 +47,9 @@ function passwordCriteria(){
 function generatePassword(){
   askQuestions(); 
   passwordCriteria()
-
   var password = "";
   for (i=0; i < numberOfChars; i++)
-   {password = password+passwordArray[Math.floor(Math.random()*passwordArray.length)]}
+   { password = password + passwordArray[Math.floor(Math.random() * passwordArray.length ) ] }
  
   return password
   }
