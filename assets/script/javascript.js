@@ -36,7 +36,11 @@ function passwordCriteria(){
   if (okToUseLowercase){passwordArray = passwordArray.concat(lowerCase);}
   if (okToUseUppercase){passwordArray = passwordArray.concat(upperCase);}
   if (okToUseNumbers){passwordArray = passwordArray.concat(numbers);}
-  else {passwordArray = null}
+  if (okToUseSpecialChars == false && okToUseLowercase == false && okToUseUppercase == false && okToUseNumbers == false ){
+    alert("Must choose at least one criteria")
+    generatePassword()
+    return
+  }
 }
 
 
