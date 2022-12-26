@@ -5,7 +5,7 @@ repo:
 deployed page:  
  https://4therealm.github.io/password-generator/  
 Screenshots:  
-deployed-page1.png  
+(assets/images/deployed-page1.png)  
 deployed-page2.png
 ## User Story
 AS AN employee with access to sensitive data
