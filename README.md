@@ -1,12 +1,11 @@
 # password-generator
-homework assignment 3: generate random passwords based on criteria that is selected.  
-repo:  
- https://github.com/4therealm/password-generator  
-deployed page:  
- https://4therealm.github.io/password-generator/  
-Screenshots:  
-(assets/images/deployed-page1.png)  
-deployed-page2.png
+Assignment #3  
+Due: 12/27/2022  
+repo: https://github.com/4therealm/password-generator    
+deployed page: https://4therealm.github.io/password-generator/      
+<img src="/assets/images/deployed-page1.png" alt="screenshot of password generator before any input">    
+<img src="/assets/images/deployed-page2.png" alt="screenshot of password generator after password has been generated">    
+
 ## User Story
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
@@ -27,3 +26,13 @@ THEN my input should be validated and at least one character type should be sele
 THEN a password is generated that matches the selected criteria
 * WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+## What I Learned
+* The importance of making the functions concise and clear. by doing so, along with console.logs after each function i was able to easily determine where the code was getting hung up.  
+* Using Concatenation to create the desired array content based on user input.  
+* Applying the Math functions to create a randomized set of characters based on the given criteria.  
+* Using a for loop to run until the users selected amount of characters.  
+
+## Future Improvements  
+* I would like to see a sleeker look for the user criteria input. Something like questions with checkboxes to select what is included.  
+* Having a button to select and copy the generated password would be very useful.  

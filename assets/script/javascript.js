@@ -1,11 +1,12 @@
 //global variables
 var generateBtn = document.querySelector("#generate");
+
 var numberOfChars;
 var okToUseSpecialChars;
 var okToUseLowercase;
 var okToUseUppercase;
 var okToUseNumbers;
-
+//the variable above are declared so the result of said variables within the function is usable outside of that function
 //global arrays
 
 var specialChars = ["!","@","#","$","%","^","&","*","(","(","_","-","+","=","{","}","[","]","|",";",":","<",",",">",".","?","/",];
